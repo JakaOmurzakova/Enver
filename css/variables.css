@@ -1,0 +1,23 @@
+:root {
+  /* fon family */
+  --main-family: "Nunito Sans", sans-serif;
+  --headers-family: "Open Sans", sans-serif;
+
+  /* colors */
+  --main-color: #fff;
+  --secondary-color: #ffffb3;
+  --primary-color: #5454d4;
+
+  /* fon-size */
+  --main-size: 20px;
+  --section-tittle-size: 60px;
+  --service-tittle-size: 28px;
+  --nav-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .root {
+    --main-size: 16px;
+    --section-title-size: 36px;
+    --service-title-sixe: 24px;
+  }
+}
